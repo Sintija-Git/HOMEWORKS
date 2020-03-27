@@ -36,7 +36,7 @@ public class Theatre2 {
 			
 	
 	public void computeIf () {
-		if (day.equalsIgnoreCase("monday") || day.equalsIgnoreCase("tuesday") || day.equalsIgnoreCase("wednesday") || day.equalsIgnoreCase("thurstay")) {
+		if (day.equalsIgnoreCase("monday") || day.equalsIgnoreCase("tuesday") || day.equalsIgnoreCase("wednesday") || day.equalsIgnoreCase("thursday")) {
 			if (age < 5 || age > 65) {
 			message = "Your ticket is for free";
 		} else if (age <= 15) {
@@ -44,7 +44,7 @@ public class Theatre2 {
 		} else { 
 			message = "Your ticket will cost 20 EUR";
 		}
-				
+			
 		} else if (day.equalsIgnoreCase("friday") || day.equalsIgnoreCase("saturday") || day.equalsIgnoreCase("sunday")) {
 			if (age < 5 || age > 65) {
 				message = "Your ticket will cost 5 EUR";
