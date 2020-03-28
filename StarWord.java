@@ -47,7 +47,6 @@ public class StarWord {
 	} //end of compute vowels
 	
 	
-	
 	// SECOND computeStars 
 	public void computeStars ( ) {
 		for (int i = 0; i < word.length(); i++) {
@@ -80,11 +79,6 @@ public class StarWord {
 		}
 	} //end of reverseWord
 	
-	
-//	//getMethod (for displayed info)possible to use .toString(); as well?!
-//	public int getchosenMethod () {
-//		return method;
-//	} //end of get m
 	
 	public String getStringbuffer () {
 		return sb.toString();	
