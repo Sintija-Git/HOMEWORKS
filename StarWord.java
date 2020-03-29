@@ -9,7 +9,7 @@ public class StarWord {
 
 	
 	//constructor
-	public void StarWord () {
+	public StarWord () {
 	}
 	
 	//setMethod for input (word, method)
