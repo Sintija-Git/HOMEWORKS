@@ -13,6 +13,7 @@ public class CalcApp {
 		int size = sc.nextInt();
 		numbers = new int [size];
 	
+		
 		AvgMaxMin myCalc = new AvgMaxMin(); //to access the class AvgMaxMin
 		
 		for (int i = 0; i <size; i++ ) {
